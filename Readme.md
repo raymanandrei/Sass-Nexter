@@ -17,8 +17,8 @@ NODEJS INSTALLED ON YOUR SYSTEM
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/raymanandrei/Sass-Trillo
-cd Sass-Trillo
+git https://github.com/raymanandrei/Sass-Nexter.git
+cd Sass-Nexter
 ```
 
 ### 2. Run start command
