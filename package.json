@@ -3,15 +3,16 @@
   "version": "1.0.0",
   "description": "Nexter webpage",
   "scripts": {
-    "start": "npm-run-all --parallel devserver watch:sass",
-    "watch:sass": "parcel watch sass/main.scss --dist-dir css",
-    "build:css": "parcel build sass/main.scss --dist-dir css"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "author": "Andrei",
   "license": "ISC",
   "devDependencies": {
-    "@parcel/transformer-sass": "^2.16.3",
-    "parcel": "^2.16.3"
+    "autoprefixer": "^10.6.1",
+    "sass": "^1.105.1",
+    "vite": "^8.3.2"
   },
   "browserslist": [
     "> 0.00000001%",
